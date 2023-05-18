@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Navigration from './Navigration';
 
 const Layout = (props) => {
+    console.log(props)
     const navbar = document.querySelector('header');
     const search = document.querySelector('.search');
     const text = document.querySelector('.menu-link');

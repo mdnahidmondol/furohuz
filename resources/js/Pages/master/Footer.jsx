@@ -21,7 +21,7 @@ const Footer =({data})=> {
      
       <div className="w-[80%] md:w-[35%] lg:w-[25%] xl:w-[25%] flex-shrink-0 md:mx-0 mx-auto text-center md:text-left ">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src={data.logo_image} alt=""/>
+          {/*<img src={data.logo_image} alt=""/>*/}
         </a>
         <p className="mt-4 text-lg text-[#064d83]">Expat Accommodation Provider</p>
       </div>
@@ -96,11 +96,13 @@ const Footer =({data})=> {
         <button onClick={chatboxToogleHandler} class="text-white">
           <svg width="17" height="17" viewBox="0 0 17 17" class="fill-current">
             <path
-              
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z"
             />
             <path
-              
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z"
             />
           </svg>
@@ -113,7 +115,7 @@ const Footer =({data})=> {
       >
         <div class="mb-5">
           <label
-            for="name"
+            htmlFor="name"
             class="mb-3 block text-base font-medium text-[#07074D]"
           >
             Your Name
@@ -128,7 +130,7 @@ const Footer =({data})=> {
         </div>
         <div class="mb-5">
           <label
-            for="email"
+            htmlFor="email"
             class="mb-3 block text-base font-medium text-[#07074D]"
           >
             Email Address
@@ -144,7 +146,7 @@ const Footer =({data})=> {
 
         <div class="mb-5">
           <label
-            for="message"
+            htmlFor="message"
             class="mb-3 block text-base font-medium text-[#07074D]"
           >
             Message
@@ -182,12 +184,14 @@ const Footer =({data})=> {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z"
               fill="white"
             />
             <path
-              
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z"
               fill="white"
             />

@@ -15,10 +15,10 @@ const HomeHeroBanner = ({locations}) => {
                             <div id="categories" className=" pt-3 pl-3 rounded-full bg-transparent w-70 md:w-80 relative md:p-4 md:flex justify-between items-center select-none ">
                                 <input type="text" name="catName" id="catName" value="EXPLORE A PLACE" className="pl-0 md:pl-3 w-full bg-white text-base font-medium cursor-pointer dark:bg-transparent dark:text-gray-50" />
                                 <input type="checkbox" name="toggleLstCat" id="toggleLstCat" className="peer hidden outline-none"/>
-                                <label role="button" for="toggleLstCat" className="absolute top-0 left-0 w-full h-full"></label>
+                                <label role="button" htmlFor="toggleLstCat" className="absolute top-0 left-0 w-full h-full"></label>
                                 <span className="min-w-max hidden md:block">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 fill-gray-700 dark:fill-gray-200" viewBox="0 0 20 20" fill="currentColor">
-                                        <path  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"  />
+                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                     </svg>
                                 </span>
                                 <div id="categorieLst" className="absolute transition-all duration-500 ease-in-out translate-y-10 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-y-1 top-full left-0 w-full bg-white border border-yellow-200 shadow-md rounded-lg py-2">
@@ -62,10 +62,10 @@ const HomeHeroBanner = ({locations}) => {
                             <div id="categories" className=" pt-3 pl-3 rounded-full bg-transparent w-70 md:w-80 relative md:p-4 md:flex justify-between items-center select-none ">
                                 <input type="text" name="catName" id="catName" value="EXPLORE A PLACE" className="pl-0 md:pl-3 w-full bg-white text-base font-medium cursor-pointer dark:bg-transparent dark:text-gray-50" />
                                 <input type="checkbox" name="toggleLstCat" id="toggleLstCat1" className="peer hidden outline-none"/>
-                                <label role="button" for="toggleLstCat1" className="absolute top-0 left-0 w-full h-full"></label>
+                                <label role="button" htmlFor="toggleLstCat1" className="absolute top-0 left-0 w-full h-full"></label>
                                 <span className="min-w-max hidden md:block">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 fill-gray-700 dark:fill-gray-200" viewBox="0 0 20 20" fill="currentColor">
-                                        <path  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"  />
+                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                     </svg>
                                 </span>
                                 <div id="categorieLst" className="absolute transition-all duration-500 ease-in-out translate-y-10 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-y-1 top-full left-0 w-full bg-white border border-yellow-200 shadow-md rounded-lg py-2">

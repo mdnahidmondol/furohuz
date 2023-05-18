@@ -27,10 +27,10 @@ const Navigration = ({data}) => {
                             <div id="" className=" pt-2 pl-3 rounded-full bg-transparent w-70 md:w-80 relative md:p-2 md:flex justify-between items-center select-none ">
                                 <input type="text" name="catName" id="catName" value="EXPLORE A PLACE" className="pl-0 md:pl-3 w-full bg-white text-xs font-medium cursor-pointer dark:bg-transparent dark:text-gray-50" />
                                 <input type="checkbox" name="toggleLstCatSearch" id="toggleLstCatSearch" className="peer hidden outline-none"/>
-                                <label role="button" for="toggleLstCatSearch" className="absolute top-0 left-0 w-full h-full"></label>
+                                <label role="button" htmlFor="toggleLstCatSearch" className="absolute top-0 left-0 w-full h-full"></label>
                                 <span className="min-w-max hidden md:block">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 fill-gray-700 dark:fill-gray-200" viewBox="0 0 20 20" fill="currentColor">
-                                        <path  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                     </svg>
                                 </span>
                                 <div id="categorieLst" className="absolute transition-all duration-500 ease-in-out translate-y-10 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-y-1 top-full left-0 w-full bg-white border border-yellow-200 shadow-md rounded-lg py-2">
@@ -57,7 +57,7 @@ const Navigration = ({data}) => {
                     </form>
       </div>
                     <div className="flex items-center lg:hidden max-h-10">
-                        <label role="button" for="toggle_nav" aria-label="humburger" id="hamburger" className="relative w-10 h-auto p-2">
+                        <label role="button" htmlFor="toggle_nav" aria-label="humburger" id="hamburger" className="relative w-10 h-auto p-2">
                             <div id="line"
                                 className={`m-auto h-0.5 w-6 rounded bg-black transition duration-300 ${url == '/' ? 'bg-white':'bg-black'}`}></div>
                             <div id="line2"
@@ -67,7 +67,7 @@ const Navigration = ({data}) => {
                     </div>
                 </div>
 
-                <label role="button" for="toggle_nav" className="hidden peer-checked:block fixed w-full h-full left-0 top-0 z-10 bg-yellow-200 dark:bg-black dark:bg-opacity-80 bg-opacity-30 backdrop-blur backdrop-filter"></label>
+                <label role="button" htmlFor="toggle_nav" className="hidden peer-checked:block fixed w-full h-full left-0 top-0 z-10 bg-yellow-200 dark:bg-black dark:bg-opacity-80 bg-opacity-30 backdrop-blur backdrop-filter"></label>
                 
                 <div className="hidden peer-checked:flex w-full flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white dark:bg-gray-900 lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent lg:w-8/12">
                     <div className="text-gray-600 lg:pr-4 w-full">

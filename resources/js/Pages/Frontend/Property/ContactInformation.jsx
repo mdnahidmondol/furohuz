@@ -9,24 +9,24 @@ const ContactInformation = ({property}) => {
              <form class="py-3 justify-center">
                         <div class="grid grid-cols-1 md:grid-cols-2 w-full gap-2 py-1">
                             <div className='w-full'>
-                            <label for="name" class="hidden">Full Name</label>
+                            <label htmlFor="name" class="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" class="w-full mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
                         
                             </div>
                             <div>
-                            <label for="name" class="hidden">Full Name</label>
+                            <label htmlFor="name" class="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" class="w-full  mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
                         
                             </div>
                          </div>
                          <div class="grid grid-cols-1 md:grid-cols-2 w-full gap-2 py-1">
                             <div className='w-full'>
-                            <label for="name" class="hidden">Full Name</label>
+                            <label htmlFor="name" class="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" class="w-full mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
                         
                             </div>
                             <div>
-                            <label for="name" class="hidden">Full Name</label>
+                            <label htmlFor="name" class="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" class="w-full  mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
                         
                             </div>
@@ -34,7 +34,7 @@ const ContactInformation = ({property}) => {
                         
 
                         <div class="flex flex-col mt-2">
-                            <label for="tel" class="hidden">Number</label>
+                            <label htmlFor="tel" class="hidden">Number</label>
                             <textarea className=' mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none'></textarea>
                         </div>
 
